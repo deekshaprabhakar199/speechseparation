@@ -1,0 +1,31 @@
+Sept 28:
+List of Features:
+1. GENDER: MALE/FEMALE/UNCLASSIFIED
+2. SINGING/TALKING: Listen to all samples and if singing appears more frequently then keep it otherwise discard it.
+3. BACKGROUND NOISE (Noise/Echo/Static/Music/Studio Audience) : How do you quantify noise? (Owner: Dan)
+4. Intensity --- get min, max, avg, and median.  (Can use PRAAT or any other tool).
+5. PITCH: How to quantfy pitch? (Owner: vkg) --- Get the min, max, avg, and median.
+6. SPEED OF TALKING: Consider phonetics/ sec? (Owner: vkg)
+    Links: http://www.speech.cs.cmu.edu/tools/lextool.html
+           http://www.cs.cmu.edu/afs/cs.cmu.edu/user/lenzo/html/areas/t2p/#:~:text=What%20is%20t2p%3F,like%20the%20CMU%20Pronouncing%20Dictionary
+    (For transcripts, we will use Human Generated Transcripts)
+7. PRESENCE OF 2 OR MORE SPEAKERS: Liten to separated files and see how the other speaker affects separation.
+
+##- Check if any useful features can be extracted from sox stats (Owner: Deeksha)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Oct 4,2022:
+Feature List Spreadsheet- https://docs.google.com/spreadsheets/d/1SvWJytp7y3eOhdmgSBC1_n-85nRUE07FLEN814DDMSA/edit?usp=sharing
+
+For Presence of two or more speakers: If only 1/2 words like yes, no, yeah are being saiad by the other person, consider this as 1 person.
+                                      If more equal division in time, i.e if the other person is speaking for about 40%-50% of the audio file time, then consider it as two people..
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Oct5, 2022:
+To-Do:
+-Listen to audio files and update spreadsheet.
+- Create csv files for intensity and pitch from praat ( Info about praat in Readme under tools) and obtain min, max, median and average from values.
+- If background noise doesn't fit {Noise/Echo/Static/Music/Studio Audience}: email to update list.
+- translate the audio in Hindi (Deeksha).
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

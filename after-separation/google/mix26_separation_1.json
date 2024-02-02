@@ -1,0 +1,1 @@
+"{\n  \"results\": [\n    {\n      \"alternatives\": [\n        {\n          \"transcript\": \"\",\n          \"confidence\": 0.0,\n          \"words\": []\n        }\n      ],\n      \"resultEndTime\": \"4.710s\",\n      \"languageCode\": \"en-us\",\n      \"channelTag\": 0\n    }\n  ],\n  \"totalBilledTime\": \"15s\"\n}"

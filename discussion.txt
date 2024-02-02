@@ -1,0 +1,5 @@
+# Discussion
+
+## ASR performance
+ - ASR performs surprisingly well on extremely noisy samples. mix159_1 after separation is almost unintelligible to the human ear in the middle section of the recording. However the ASR is able to determine a transcript that nearly matches the human transcript on the original audio.
+- mix159 original 1 and 2; 1 is a female voice, 2 is male. In the separated wav files, the separation seemed to have failed as there is no female voice at all!
